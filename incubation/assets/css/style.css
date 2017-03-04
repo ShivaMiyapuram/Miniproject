@@ -1,0 +1,168 @@
+body{
+	margin-bottom: 40px;
+	overflow-x:hidden;
+	font-family: "Courier New", Courier, monospace;
+}
+
+@media screen and (min-width: 769px) {
+
+.logo{
+	width:300px;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+
+.logo{
+	width:300px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+
+.logo{
+	width:200px;
+}
+
+}
+
+.item img{
+	width:100%;
+	height:100%;
+}
+
+.logo img{
+	
+	height:110%;
+}
+
+.navbar{
+	padding: 8px 0 6px 0;
+}
+
+.details{
+	width:100%;
+}
+
+.center-block {
+  display: block;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo .logo-l{
+   color: #FFFFFF;
+ 	width: 5%;
+ 	height: 35%;
+ 	border-radius:0px;
+ 	font-size:20px;
+ left: 3%;
+	position:absolute;
+	top:28%;
+	text-align: center;
+}
+
+.glyphicon-chevron-right,.glyphicon-chevron-left{
+	color:blue;
+}
+
+.details{
+	max-width: 100%;
+	border:none;
+	font-size:18px;
+	font-weight: bold;
+	overflow-y:hidden;
+	min-height: 100px;
+	height:100%;
+	background: transparent;
+}
+
+.my-btn{
+	padding:8px 30px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.navbar-nav li{
+	width:170px;
+	text-align: center;
+	margin-left:5px;
+	font-size: 17px;
+	
+}
+.in{
+	width:17%;
+
+}
+.in .btn{
+width:100%;
+font-size:16px;
+}
+.in-box .in{
+	display: inline-block;
+}
+
+
+
+
+.wrapper{
+  margin:0px 10px;
+}
+
+ .up{
+ 	color: #375182;
+ 	width: 30%;
+ 	height: 10%;
+ 	border-radius:0px;
+ 	font-size:20px;
+border:2px solid #2E446C;
+border-bottom:2px solid #2E446C;
+ left: 65%;
+	position:absolute;
+	top:87%;
+	text-align: center;
+ }
+.up:active{
+	top:87.5%;
+}
+
+ 
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 6px;
+  background-color: white;
+}
+ 
+.owl-theme .owl-buttons i{
+  margin-top: 2px;
+
+
+}
+ 
+ 
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -12px;
+  top: 125px; 
+  border-radius: 0;
+  
+
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -15px;
+  top: 125px;
+  border-radius: 0;
+
+
+}
+ 
+
+ #locmap iframe{
+ 	width:80%;
+ }

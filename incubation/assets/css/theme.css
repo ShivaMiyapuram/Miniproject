@@ -1,0 +1,158 @@
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+.navbar{
+  border-radius: 0;
+}
+
+.navbar-brand {
+  float: left;
+  margin-left:10%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
+.btn{
+    margin: 4px;
+    box-shadow: 1px 1px 5px #2E446C;
+}
+
+.btn-xs{
+    font-weight: 300;
+}
+   
+.btn-hot {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+}
+
+.btn-hot:hover, .btn-sky.active:focus, .btn-hot:focus, .open>.dropdown-toggle.btn-hot {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+outline: none;}
+
+
+.btn-hot:active, .btn-hot.active {
+color: #fff;
+background-color: #2E446C;
+border-top:2px solid #2E446C;
+margin-top: 2px;
+}
+
+.btn-sunny {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+}
+
+.btn-sunny:hover, .btn-sky.active:focus, .btn-sunny:focus, .open>.dropdown-toggle.btn-sunny {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+outline: none;
+}
+
+
+.btn-sunny:active, .btn-sunny.active {
+color: #fff;
+background-color: #2E446C;
+border-top:2px solid #2E446C;
+margin-top: 2px;
+}
+
+.btn-fresh {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+}
+
+.btn-fresh:hover, .btn-sky.active:focus, .btn-fresh:focus, .open>.dropdown-toggle.btn-fresh {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+outline: none;
+}
+
+
+.btn-fresh:active, .btn-fresh.active {
+color: #fff;
+background-color: #2E446C;
+border-top:2px solid #2E446C;
+outline: none;
+outline-offset: none;
+margin-top: 2px;
+}
+
+.btn-sky {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+}
+
+.btn-sky:hover,.btn-sky.active:focus, .btn-sky:focus, .open>.dropdown-toggle.btn-sky {
+color: #fff;
+background-color: #2E446C;
+border-bottom:2px solid #2E446C;
+outline: none;
+}
+
+.btn-sky:active, .btn-sky.active {
+color: #fff;
+background-color: #2E446C;
+border-top:2px solid #2E446C;
+outline-offset: none;
+margin-top: 2px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+    outline-offset: 0px;
+}
